@@ -6,7 +6,7 @@ main(){
 	if((x>='a'&& x<='z')||(x>='A'&& x<='Z')){
 		printf("\n %c is an alphabet",x);
 	}
-	else if(x>='0'&& x <='100'){
+	else if(x>='0'&& x <='9'){
 		printf("\n %c is a digit",x);
 	}
 	else{
