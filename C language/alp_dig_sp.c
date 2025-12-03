@@ -13,3 +13,4 @@ main(){
 		printf("\n %c is a special character",x);	
 	}
 }
+

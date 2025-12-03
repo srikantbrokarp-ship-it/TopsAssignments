@@ -17,3 +17,4 @@ main(){
 			printf("\n %d is not divisible by 3 or 5.",num);
 			}
 }
+

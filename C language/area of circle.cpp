@@ -8,3 +8,4 @@ main(){
 	A=pi*r*r;
 	printf("\n area of circle : %f",A);
 }
+

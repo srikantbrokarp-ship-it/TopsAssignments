@@ -16,4 +16,3 @@
         printf("The weather is VERY HOT.\n");
     }
 }
-

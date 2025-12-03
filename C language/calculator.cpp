@@ -1,16 +1,20 @@
-#include <stdio.h> 
+
+#include <stdio.h>
 main() {
-	int num1, num2 ;
-	float num;
-	printf("\n enter two number:");
-	scanf("%d %d",&num1,&num2);
-		printf("\n sum:%d",num1+num2);
-			printf("\n difference:%d",num1-num2);
-				printf("\n product:%d",num1*num2);
-				num=num1/num2;
-					printf("\n div:%f",num);
-					printf("\n modul:%d",num1%num2);
-					
-					
-					
+    int num1, num2;
+    float num;
+
+    printf("\nEnter 2 numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+    printf("\nSum: %d", num1 + num2);
+    printf("\nDifference: %d", num1 - num2);
+    printf("\nProduct: %d", num1 * num2);
+    num = (float)num1 / num2;
+    printf("\nDivision: %f", num);
+
+    printf("\nModulus: %d", num1 % num2);
+
+    
 }
+

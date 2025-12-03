@@ -6,3 +6,4 @@ main(){
 	printf("\n square:%d",num*num);
 	printf("\n cube:%d",num*num*num);
 }
+

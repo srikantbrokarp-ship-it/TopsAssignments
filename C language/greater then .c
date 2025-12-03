@@ -7,7 +7,8 @@ main(){
 	printf("\n the entered num %d is greater then %d",x,y);
 }
 else if(y>x){
-	printf("\n the entered num %d is greater then %d",y,x);n
+	printf("\n the entered num %d is greater then %d",y,x);
 	
 }
 }
+
