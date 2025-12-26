@@ -16,3 +16,4 @@ main(){
 	printf("\n %d is a senior.",age);
 }
 }
+

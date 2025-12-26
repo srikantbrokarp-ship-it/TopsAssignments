@@ -9,5 +9,5 @@ main(){
 	scanf("%f",&t);	
 	si=(p*r*t)/100;
 	printf("\n simple interset:%f",si);
-
 }
+

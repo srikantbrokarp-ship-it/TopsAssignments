@@ -13,7 +13,7 @@ main(){
 				printf("\n even");
 				return;
 	}
-			odd:{
+			odd:{ 
 				printf("\n odd");
 				return;
 }

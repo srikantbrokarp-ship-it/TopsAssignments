@@ -1,4 +1,4 @@
-#include<stdio.h>
+w#include<stdio.h>
 main(){
 	int x;
 	printf("\n enter a number");

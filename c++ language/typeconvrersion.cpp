@@ -6,6 +6,5 @@ main(){
 	float c;
 	c=(float)a/b;
 	cout<<"\n div="<<c;
-	std::cout << std::endl << std::fixed << std::setprecision(2) << c;
 }
 

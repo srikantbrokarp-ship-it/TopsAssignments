@@ -18,6 +18,7 @@ int main() {
         }
         else {
             if (winnum > y) {
+            	
                 printf("\nYou guessed too low!");
             } else {
                 printf("\nYou guessed too high!");
