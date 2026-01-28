@@ -39,9 +39,7 @@ public:
                 cout << "Invalid choice! Enter only 1, 2 or 3.\n";
                 continue;
             }
-
             computerChoice = (rand() % 3) + 1;
-
             // User choice
             switch (userChoice)
             {
@@ -49,7 +47,6 @@ public:
             case 2: cout << "You chose Paper\n"; break;
             case 3: cout << "You chose Scissors\n"; break;
             }
-
             // Computer choice
             switch (computerChoice)
             {
@@ -57,7 +54,6 @@ public:
             case 2: cout << "Computer chose Paper\n"; break;
             case 3: cout << "Computer chose Scissors\n"; break;
             }
-
             // Result
             if (userChoice == computerChoice)
                 cout << "Result: Tie\n";
@@ -67,35 +63,29 @@ public:
                 cout << "Result: You Win!\n";
             else
                 cout << "Result: Computer Wins!\n";
-
             // Play again validation
             do
             {
                 cout << "Play again? (y/n): ";
                 cin >> repeat;
-
-                if (repeat != 'y' && repeat != 'Y' &&
+                 if (repeat != 'y' && repeat != 'Y' &&
                     repeat != 'n' && repeat != 'N')
                 {
                     cout << "Invalid input! Enter y or n.\n";
                 }
-
             } while (repeat != 'y' && repeat != 'Y' &&
                      repeat != 'n' && repeat != 'N');
 
         } while (repeat == 'y' || repeat == 'Y');
     }
 };
-
 int main()
 {
     RockPaperScissors game;
     game.playGame();
-
     cout << "\n============================================\n";
     cout << "Thanks for playing!\n";
     cout << "============================================\n";
-
     return 0;
 }
 
